@@ -323,7 +323,7 @@ tr:nth-child(odd) {
 }
 
 /* Desktop viewport: style rule for form element */
-  form-grid {
+.form-grid {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 20px;
