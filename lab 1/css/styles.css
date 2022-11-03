@@ -267,10 +267,21 @@ nav li a{
   padding-right: 0.5em;
 }
 
+
+
 /* Tablet Viewport: Style rule for map */
 .map {
   width: 500px;
   height: 450px;
+}
+
+/* Tablet Viewport: style rule for form element */
+form{
+  width: 70%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*Tablet Viewport: Style rule for grid */
@@ -335,11 +346,21 @@ aside{
     margin-right: 2%;
   }
 
-  /*Desktop Viewport: Style rule for table.*/
-
+/*Desktop Viewport: Style rule for table.*/
   table{
     width: 70%;
   }
+
+/* Desktop viewport: style rule for form element */
+form-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+  }
+
+.btn{
+  grid-column: 1 / span 2;
+}
 
 }
   /* Media Query for print */
