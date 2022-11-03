@@ -140,7 +140,7 @@ main p {
   font-weight: bold;
 }
 
-#rental h2
+#rental h2{}
 
 .tel-link {
   background-color: #373684;
@@ -352,7 +352,7 @@ aside{
   }
 
 /* Desktop viewport: style rule for form element */
-form-grid {
+.form-grid {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 20px;
